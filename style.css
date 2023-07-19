@@ -1,0 +1,359 @@
+html{
+    background-color:#1D587C;  
+    }
+    header{
+     background-color:#FFA870; 
+     
+    } 
+    
+    .logo-img{
+      height:160px;
+      width:160;
+    }
+    
+    nav{
+      overflow: hidden;
+    }
+    a {
+      cursor: pointer;
+      text-decoration: underline;
+      color:black;
+      float: right;
+      display: block;
+    }
+    
+    a:hover{ 
+      text-decoration: none;
+    }
+    
+    a:active {
+      color: Orange;
+    }
+    
+    nav{
+      flex-grow:1;
+      float:right;
+      padding-top:50px;
+      text-align:right;
+      font-size:24px;
+      color:black;
+    
+    }
+    
+    .home{
+     display: inline-block;
+      border: 1px solid #466995;
+      border-radius: 10px;
+      box-shadow: 0px 4px;
+      margin-right:20px;
+      padding: 2px 6px;
+      background-color:#CEFBFF;
+    }
+    
+    .events{
+      display: inline-block;
+      border: 1px solid #466995;
+      border-radius: 10px;
+      box-shadow: 0px 4px;
+      margin-right:20px;
+      padding: 2px 6px;
+      background-color:#CEFBFF;
+    }
+    
+    .register{
+      display: inline-block;
+      border: 1px solid #466995;
+      border-radius: 10px;
+      box-shadow: 0px 4px;
+      margin-right:20px;
+      padding: 2px 6px;
+      background-color:#CEFBFF;
+      color:black;
+        }
+    
+    .contacts {
+      display: inline-block;
+      border: 1px solid #466995;
+      border-radius: 10px;
+      box-shadow: 0px 4px;
+      margin-right:20px;
+      padding: 2px 6px;
+      background-color:#CEFBFF;
+      }
+    
+      h2{ 
+        font-size:5em;
+        text-align: center;
+        color:#CEFBFF;
+        font-family:'Caveat Brush'
+      }
+    
+    .club-name img{
+      display: block;
+      width: 1525px;
+      float:left;
+      height:1000px;
+      padding-left:1px;
+      padding-top:0px;
+      background-repeat: no-repeat; 
+      margin-top:0px;
+      border: 2px solid GhostWhite;
+      border-radius: 10px;
+    }
+    
+    .body{
+      line-height: 2em;
+    }
+    
+    .swim{
+     float:left;
+     display:block;
+     margin-bottom:100px;
+     color:#FFA870;
+    padding-top:5rem;
+    line-height:70px;
+    }
+    
+    p{
+      float:left;
+      margin-top:-60px;
+      display:block;
+      font-size:2rem;
+      font-family:Boogaloo;
+      color:#CEFBFF;
+      line-height:3rem;
+      padding-bottom:7rem;
+    }
+    
+    
+    section{
+      float:left;
+      background-color:#FFA870
+    }
+    
+    .advice{
+      font-size:330%;
+      color:#1D587C;
+    }
+    
+    
+    .image1{
+      float:left;
+      width:25rem;
+      height:25rem;
+      margin-top:30px;
+      margin-bottom:30px;
+      margin-right: 20px;
+      margin-left:20px;
+      padding-top:7rem;
+      padding-bottom:6rem; 
+      
+    }
+    
+    .image2{
+      float:center;
+      width:30rem;
+      height:25rem;
+      margin-top:30px;
+      margin-bottom:30px;
+      margin-right: 40px;
+      margin-left:40px;
+      padding-top:7rem;
+      padding-bottom:6rem;
+      
+    }
+    
+    .image3{
+      float:center;
+      width:30rem;
+      height:25rem;
+      margin-top:30px;
+      margin-bottom:30px;
+      margin-right: 0px;
+      margin-left:20px;
+      padding-top:7rem;
+      padding-bottom:6rem;
+     
+    }
+    
+    span{ 
+      font-family:Pangolin;
+      background-color:#FFA870;
+      float:center;
+    }
+    
+    #enroll{ 
+     padding-left:50px;
+     padding-right:50px; 
+     background-color:#FFA870; 
+     float:center;
+     color:#CEFBFF;
+    }
+    
+    
+    
+    
+    .image4{
+      float:center;
+      padding-left:17.5rem;
+      margin-top:30px;
+      margin-bottom:30px;
+      margin-right: 40px;
+      margin-left:40px;
+      padding-top:7rem;
+      padding-bottom:6rem; 
+      
+    }
+    
+    footer{
+      border-top:5px solid #CEFBFF;
+    }
+    
+    /*@media only screen and (max-width:1024px){
+    
+          
+          .club-name img{
+            display: block;
+            width: 1400px;
+            float:left;
+            height:1000px;
+            padding-left:1px;
+            padding-top:0px;
+            background-repeat: no-repeat; 
+            margin-top:0px;
+            border: 2px solid GhostWhite;
+            border-radius: 10px;
+          }
+          
+          
+          .image1{
+            float:left;
+            width:20rem;
+            height:25rem;
+            margin-top:30px;
+            margin-bottom:30px;
+            margin-right: 20px;
+            margin-left:20px;
+            padding-top:7rem;
+            padding-bottom:6rem; 
+            
+          }
+          
+          .image2{
+            float:center;
+            width:20rem;
+            height:25rem;
+            margin-top:30px;
+            margin-bottom:30px;
+            margin-right: 40px;
+            margin-left:40px;
+            padding-top:7rem;
+            padding-bottom:6rem;
+            
+          }
+          
+          .image3{
+            float:center;
+            width:20rem;
+            height:25rem;
+            margin-top:30px;
+            margin-bottom:30px;
+            margin-right: 0px;
+            margin-left:20px;
+            padding-top:7rem;
+            padding-bottom:6rem;
+           
+          }
+          
+          span{ 
+            font-family:Pangolin;
+            background-color:#FFA870;
+            float:center;
+          }
+          
+          #enroll{ 
+           padding-left:50px;
+           padding-right:50px; 
+           background-color:#FFA870; 
+           float:center;
+           color:#CEFBFF;
+          }
+          
+          
+          
+          
+          .image4{
+            float:center;
+            padding-left:10rem;
+            margin-top:30px;
+            margin-bottom:30px;
+            margin-right: 40px;
+            margin-left:40px;
+            padding-top:7rem;
+            padding-bottom:6rem; 
+            
+          }
+          
+          footer{
+            border-top:5px solid #CEFBFF;
+          }   
+    }*/
+        
+    }
+    @media only screen and (max-width: 480px) {
+    nav a{
+        float: none;
+        width: 100%;
+      }
+    
+      h2{
+        font-size:70px;
+      }
+    
+    .club-name img{
+      float:center;
+      width:400px;
+      height:400px;
+      margin:0 auto;
+    }
+    
+    .image1{
+      width:20rem;
+      margin-left: 53px;
+    }
+    
+    .image2{
+    width:20rem;
+    margin-left: 53px;
+    padding-top:5px;
+    }
+    
+    .image3{
+    width:20rem;
+    margin-left: 53px; 
+    padding-top:5px;
+    }
+    
+    .register{
+      margin-bottom:10px;
+    }
+    
+    .events{
+       margin-bottom:10px;
+    }
+    
+    .enroll{ 
+     font-size:5px;
+     padding-left:50px;
+     padding-right:50px; 
+     width:700px;
+    
+    }
+    
+    .image4{
+    display:none;
+    }  
+    
+    }
+    
+    
